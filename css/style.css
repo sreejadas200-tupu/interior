@@ -152,6 +152,7 @@ nav,
   max-width: 793px;
   padding: 75.5px 59.5px;
   border-radius: 20px;
+  text-align: center;
   position: absolute;
   top: 188px;
   right: 203px;
@@ -280,8 +281,7 @@ nav,
 
 @media screen and (max-width: 1245px) {
   .card {
-    max-width: 680px;
-    top: 182px;
+    top: 130px;
 
   }
   .card > .title1 {
@@ -344,9 +344,9 @@ nav,
 
     .card{
         top: 223px;
-        right: 283px;
-        left: 28px;
-        min-width: 510px;
+        right: 13px;
+        left: 13px;
+        min-width: 404px;
   }
     
    .card>.title1{
@@ -377,9 +377,9 @@ nav,
 
     .card{
         top: 198px;
-        right: 283px;
-        left: 0px;
-        min-width: 375px;
+        /* right: 283px; */
+        left: 9px;
+        min-width: 362px;
     }
 
     .button {
@@ -392,8 +392,9 @@ nav,
 @media screen and (max-width: 320px) {
       .card{
         top: 104px;
-        left: 0px;
+        left: 15px;
         min-width: 320px;
+        
       }
 
       .card>.title1{
